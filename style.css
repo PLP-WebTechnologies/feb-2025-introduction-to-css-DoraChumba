@@ -1,0 +1,94 @@
+/* Element selector - styles all paragraphs */
+p {
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Class selector - styles content sections */
+.content-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+/* Styling the navigation */
+.main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #3498db;
+    margin: 0 0 30px 0;
+}
+
+.main-nav li {
+    padding: 15px;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-nav a:hover {
+    color: #f1c40f;
+}
+
+/* Image styling */
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-container img {
+    border: 5px solid #3498db;
+    border-radius: 8px;
+    max-width: 70%;
+    height: auto;
+}
+
+.image-caption {
+    font-style: italic;
+    color: #7f8c8d;
+    margin-top: 10px;
+}
+
+/* Highlighted section */
+.highlighted {
+    background-color: #e8f4fc;
+    border-left: 5px solid #3498db;
+}
+
+/* Footer styling */
+footer {
+    background-color: #2c3e5044;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+
+/* Typography */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif;
+    color: #2c3e50;
+}
+
+.highlighted h2 {
+    color: #2980b9;
+}
